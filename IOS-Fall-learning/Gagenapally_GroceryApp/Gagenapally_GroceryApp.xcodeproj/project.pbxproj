@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26490E46292443640060BD17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E45292443640060BD17 /* AppDelegate.swift */; };
+		26490E48292443640060BD17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E47292443640060BD17 /* SceneDelegate.swift */; };
+		26490E4A292443640060BD17 /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E49292443640060BD17 /* GrocerySectionsViewController.swift */; };
+		26490E4D292443640060BD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26490E4B292443640060BD17 /* Main.storyboard */; };
+		26490E4F292443640060BD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26490E4E292443640060BD17 /* Assets.xcassets */; };
+		26490E52292443640060BD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26490E50292443640060BD17 /* LaunchScreen.storyboard */; };
+		26490E5D292443640060BD17 /* Gagenapally_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E5C292443640060BD17 /* Gagenapally_GroceryAppTests.swift */; };
+		26490E67292443640060BD17 /* Gagenapally_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E66292443640060BD17 /* Gagenapally_GroceryAppUITests.swift */; };
+		26490E69292443640060BD17 /* Gagenapally_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E68292443640060BD17 /* Gagenapally_GroceryAppUITestsLaunchTests.swift */; };
+		26490E76292445130060BD17 /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E75292445130060BD17 /* GroceryItemsViewController.swift */; };
+		26490E782924460C0060BD17 /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E772924460C0060BD17 /* ItemInfoViewController.swift */; };
+		26490E7A292447510060BD17 /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26490E79292447510060BD17 /* GrocerySections.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26490E59292443640060BD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26490E3A292443640060BD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26490E41292443640060BD17;
+			remoteInfo = Gagenapally_GroceryApp;
+		};
+		26490E63292443640060BD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26490E3A292443640060BD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26490E41292443640060BD17;
+			remoteInfo = Gagenapally_GroceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26490E42292443640060BD17 /* Gagenapally_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gagenapally_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26490E45292443640060BD17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26490E47292443640060BD17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26490E49292443640060BD17 /* GrocerySectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySectionsViewController.swift; sourceTree = "<group>"; };
+		26490E4C292443640060BD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26490E4E292443640060BD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26490E51292443640060BD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26490E53292443640060BD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26490E58292443640060BD17 /* Gagenapally_GroceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_GroceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26490E5C292443640060BD17 /* Gagenapally_GroceryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_GroceryAppTests.swift; sourceTree = "<group>"; };
+		26490E62292443640060BD17 /* Gagenapally_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26490E66292443640060BD17 /* Gagenapally_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_GroceryAppUITests.swift; sourceTree = "<group>"; };
+		26490E68292443640060BD17 /* Gagenapally_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26490E75292445130060BD17 /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		26490E772924460C0060BD17 /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		26490E79292447510060BD17 /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26490E3F292443640060BD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26490E55292443640060BD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26490E5F292443640060BD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26490E39292443640060BD17 = {
+			isa = PBXGroup;
+			children = (
+				26490E44292443640060BD17 /* Gagenapally_GroceryApp */,
+				26490E5B292443640060BD17 /* Gagenapally_GroceryAppTests */,
+				26490E65292443640060BD17 /* Gagenapally_GroceryAppUITests */,
+				26490E43292443640060BD17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26490E43292443640060BD17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26490E42292443640060BD17 /* Gagenapally_GroceryApp.app */,
+				26490E58292443640060BD17 /* Gagenapally_GroceryAppTests.xctest */,
+				26490E62292443640060BD17 /* Gagenapally_GroceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26490E44292443640060BD17 /* Gagenapally_GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				26490E45292443640060BD17 /* AppDelegate.swift */,
+				26490E47292443640060BD17 /* SceneDelegate.swift */,
+				26490E49292443640060BD17 /* GrocerySectionsViewController.swift */,
+				26490E4B292443640060BD17 /* Main.storyboard */,
+				26490E4E292443640060BD17 /* Assets.xcassets */,
+				26490E50292443640060BD17 /* LaunchScreen.storyboard */,
+				26490E53292443640060BD17 /* Info.plist */,
+				26490E75292445130060BD17 /* GroceryItemsViewController.swift */,
+				26490E772924460C0060BD17 /* ItemInfoViewController.swift */,
+				26490E79292447510060BD17 /* GrocerySections.swift */,
+			);
+			path = Gagenapally_GroceryApp;
+			sourceTree = "<group>";
+		};
+		26490E5B292443640060BD17 /* Gagenapally_GroceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26490E5C292443640060BD17 /* Gagenapally_GroceryAppTests.swift */,
+			);
+			path = Gagenapally_GroceryAppTests;
+			sourceTree = "<group>";
+		};
+		26490E65292443640060BD17 /* Gagenapally_GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26490E66292443640060BD17 /* Gagenapally_GroceryAppUITests.swift */,
+				26490E68292443640060BD17 /* Gagenapally_GroceryAppUITestsLaunchTests.swift */,
+			);
+			path = Gagenapally_GroceryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26490E41292443640060BD17 /* Gagenapally_GroceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26490E6C292443640060BD17 /* Build configuration list for PBXNativeTarget "Gagenapally_GroceryApp" */;
+			buildPhases = (
+				26490E3E292443640060BD17 /* Sources */,
+				26490E3F292443640060BD17 /* Frameworks */,
+				26490E40292443640060BD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gagenapally_GroceryApp;
+			productName = Gagenapally_GroceryApp;
+			productReference = 26490E42292443640060BD17 /* Gagenapally_GroceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26490E57292443640060BD17 /* Gagenapally_GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26490E6F292443640060BD17 /* Build configuration list for PBXNativeTarget "Gagenapally_GroceryAppTests" */;
+			buildPhases = (
+				26490E54292443640060BD17 /* Sources */,
+				26490E55292443640060BD17 /* Frameworks */,
+				26490E56292443640060BD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26490E5A292443640060BD17 /* PBXTargetDependency */,
+			);
+			name = Gagenapally_GroceryAppTests;
+			productName = Gagenapally_GroceryAppTests;
+			productReference = 26490E58292443640060BD17 /* Gagenapally_GroceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26490E61292443640060BD17 /* Gagenapally_GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26490E72292443640060BD17 /* Build configuration list for PBXNativeTarget "Gagenapally_GroceryAppUITests" */;
+			buildPhases = (
+				26490E5E292443640060BD17 /* Sources */,
+				26490E5F292443640060BD17 /* Frameworks */,
+				26490E60292443640060BD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26490E64292443640060BD17 /* PBXTargetDependency */,
+			);
+			name = Gagenapally_GroceryAppUITests;
+			productName = Gagenapally_GroceryAppUITests;
+			productReference = 26490E62292443640060BD17 /* Gagenapally_GroceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26490E3A292443640060BD17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					26490E41292443640060BD17 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					26490E57292443640060BD17 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 26490E41292443640060BD17;
+					};
+					26490E61292443640060BD17 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 26490E41292443640060BD17;
+					};
+				};
+			};
+			buildConfigurationList = 26490E3D292443640060BD17 /* Build configuration list for PBXProject "Gagenapally_GroceryApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26490E39292443640060BD17;
+			productRefGroup = 26490E43292443640060BD17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26490E41292443640060BD17 /* Gagenapally_GroceryApp */,
+				26490E57292443640060BD17 /* Gagenapally_GroceryAppTests */,
+				26490E61292443640060BD17 /* Gagenapally_GroceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26490E40292443640060BD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26490E52292443640060BD17 /* LaunchScreen.storyboard in Resources */,
+				26490E4F292443640060BD17 /* Assets.xcassets in Resources */,
+				26490E4D292443640060BD17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26490E56292443640060BD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26490E60292443640060BD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26490E3E292443640060BD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26490E4A292443640060BD17 /* GrocerySectionsViewController.swift in Sources */,
+				26490E7A292447510060BD17 /* GrocerySections.swift in Sources */,
+				26490E46292443640060BD17 /* AppDelegate.swift in Sources */,
+				26490E76292445130060BD17 /* GroceryItemsViewController.swift in Sources */,
+				26490E782924460C0060BD17 /* ItemInfoViewController.swift in Sources */,
+				26490E48292443640060BD17 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26490E54292443640060BD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26490E5D292443640060BD17 /* Gagenapally_GroceryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26490E5E292443640060BD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26490E69292443640060BD17 /* Gagenapally_GroceryAppUITestsLaunchTests.swift in Sources */,
+				26490E67292443640060BD17 /* Gagenapally_GroceryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26490E5A292443640060BD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26490E41292443640060BD17 /* Gagenapally_GroceryApp */;
+			targetProxy = 26490E59292443640060BD17 /* PBXContainerItemProxy */;
+		};
+		26490E64292443640060BD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26490E41292443640060BD17 /* Gagenapally_GroceryApp */;
+			targetProxy = 26490E63292443640060BD17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26490E4B292443640060BD17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26490E4C292443640060BD17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26490E50292443640060BD17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26490E51292443640060BD17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26490E6A292443640060BD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26490E6B292443640060BD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26490E6D292443640060BD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26490E6E292443640060BD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26490E70292443640060BD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_GroceryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gagenapally_GroceryApp";
+			};
+			name = Debug;
+		};
+		26490E71292443640060BD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_GroceryApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gagenapally_GroceryApp";
+			};
+			name = Release;
+		};
+		26490E73292443640060BD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_GroceryApp;
+			};
+			name = Debug;
+		};
+		26490E74292443640060BD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_GroceryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26490E3D292443640060BD17 /* Build configuration list for PBXProject "Gagenapally_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26490E6A292443640060BD17 /* Debug */,
+				26490E6B292443640060BD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26490E6C292443640060BD17 /* Build configuration list for PBXNativeTarget "Gagenapally_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26490E6D292443640060BD17 /* Debug */,
+				26490E6E292443640060BD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26490E6F292443640060BD17 /* Build configuration list for PBXNativeTarget "Gagenapally_GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26490E70292443640060BD17 /* Debug */,
+				26490E71292443640060BD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26490E72292443640060BD17 /* Build configuration list for PBXNativeTarget "Gagenapally_GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26490E73292443640060BD17 /* Debug */,
+				26490E74292443640060BD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26490E3A292443640060BD17 /* Project object */;
+}

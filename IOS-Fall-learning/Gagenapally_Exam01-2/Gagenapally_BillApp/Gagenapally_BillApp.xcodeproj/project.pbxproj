@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2628C36128EC666500A9A3F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628C36028EC666500A9A3F6 /* AppDelegate.swift */; };
+		2628C36328EC666500A9A3F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628C36228EC666500A9A3F6 /* SceneDelegate.swift */; };
+		2628C36528EC666500A9A3F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628C36428EC666500A9A3F6 /* ViewController.swift */; };
+		2628C36828EC666500A9A3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2628C36628EC666500A9A3F6 /* Main.storyboard */; };
+		2628C36A28EC666600A9A3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2628C36928EC666600A9A3F6 /* Assets.xcassets */; };
+		2628C36D28EC666600A9A3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2628C36B28EC666600A9A3F6 /* LaunchScreen.storyboard */; };
+		2628C37828EC666600A9A3F6 /* Gagenapally_BillAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628C37728EC666600A9A3F6 /* Gagenapally_BillAppTests.swift */; };
+		2628C38228EC666600A9A3F6 /* Gagenapally_BillAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628C38128EC666600A9A3F6 /* Gagenapally_BillAppUITests.swift */; };
+		2628C38428EC666600A9A3F6 /* Gagenapally_BillAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628C38328EC666600A9A3F6 /* Gagenapally_BillAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2628C37428EC666600A9A3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2628C35528EC666500A9A3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2628C35C28EC666500A9A3F6;
+			remoteInfo = Gagenapally_BillApp;
+		};
+		2628C37E28EC666600A9A3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2628C35528EC666500A9A3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2628C35C28EC666500A9A3F6;
+			remoteInfo = Gagenapally_BillApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2628C35D28EC666500A9A3F6 /* Gagenapally_BillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gagenapally_BillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2628C36028EC666500A9A3F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2628C36228EC666500A9A3F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2628C36428EC666500A9A3F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2628C36728EC666500A9A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2628C36928EC666600A9A3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2628C36C28EC666600A9A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2628C36E28EC666600A9A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2628C37328EC666600A9A3F6 /* Gagenapally_BillAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_BillAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2628C37728EC666600A9A3F6 /* Gagenapally_BillAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_BillAppTests.swift; sourceTree = "<group>"; };
+		2628C37D28EC666600A9A3F6 /* Gagenapally_BillAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_BillAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2628C38128EC666600A9A3F6 /* Gagenapally_BillAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_BillAppUITests.swift; sourceTree = "<group>"; };
+		2628C38328EC666600A9A3F6 /* Gagenapally_BillAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_BillAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2628C35A28EC666500A9A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2628C37028EC666600A9A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2628C37A28EC666600A9A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2628C35428EC666500A9A3F6 = {
+			isa = PBXGroup;
+			children = (
+				2628C35F28EC666500A9A3F6 /* Gagenapally_BillApp */,
+				2628C37628EC666600A9A3F6 /* Gagenapally_BillAppTests */,
+				2628C38028EC666600A9A3F6 /* Gagenapally_BillAppUITests */,
+				2628C35E28EC666500A9A3F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2628C35E28EC666500A9A3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2628C35D28EC666500A9A3F6 /* Gagenapally_BillApp.app */,
+				2628C37328EC666600A9A3F6 /* Gagenapally_BillAppTests.xctest */,
+				2628C37D28EC666600A9A3F6 /* Gagenapally_BillAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2628C35F28EC666500A9A3F6 /* Gagenapally_BillApp */ = {
+			isa = PBXGroup;
+			children = (
+				2628C36028EC666500A9A3F6 /* AppDelegate.swift */,
+				2628C36228EC666500A9A3F6 /* SceneDelegate.swift */,
+				2628C36428EC666500A9A3F6 /* ViewController.swift */,
+				2628C36628EC666500A9A3F6 /* Main.storyboard */,
+				2628C36928EC666600A9A3F6 /* Assets.xcassets */,
+				2628C36B28EC666600A9A3F6 /* LaunchScreen.storyboard */,
+				2628C36E28EC666600A9A3F6 /* Info.plist */,
+			);
+			path = Gagenapally_BillApp;
+			sourceTree = "<group>";
+		};
+		2628C37628EC666600A9A3F6 /* Gagenapally_BillAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2628C37728EC666600A9A3F6 /* Gagenapally_BillAppTests.swift */,
+			);
+			path = Gagenapally_BillAppTests;
+			sourceTree = "<group>";
+		};
+		2628C38028EC666600A9A3F6 /* Gagenapally_BillAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2628C38128EC666600A9A3F6 /* Gagenapally_BillAppUITests.swift */,
+				2628C38328EC666600A9A3F6 /* Gagenapally_BillAppUITestsLaunchTests.swift */,
+			);
+			path = Gagenapally_BillAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2628C35C28EC666500A9A3F6 /* Gagenapally_BillApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2628C38728EC666600A9A3F6 /* Build configuration list for PBXNativeTarget "Gagenapally_BillApp" */;
+			buildPhases = (
+				2628C35928EC666500A9A3F6 /* Sources */,
+				2628C35A28EC666500A9A3F6 /* Frameworks */,
+				2628C35B28EC666500A9A3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gagenapally_BillApp;
+			productName = Gagenapally_BillApp;
+			productReference = 2628C35D28EC666500A9A3F6 /* Gagenapally_BillApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2628C37228EC666600A9A3F6 /* Gagenapally_BillAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2628C38A28EC666600A9A3F6 /* Build configuration list for PBXNativeTarget "Gagenapally_BillAppTests" */;
+			buildPhases = (
+				2628C36F28EC666600A9A3F6 /* Sources */,
+				2628C37028EC666600A9A3F6 /* Frameworks */,
+				2628C37128EC666600A9A3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2628C37528EC666600A9A3F6 /* PBXTargetDependency */,
+			);
+			name = Gagenapally_BillAppTests;
+			productName = Gagenapally_BillAppTests;
+			productReference = 2628C37328EC666600A9A3F6 /* Gagenapally_BillAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2628C37C28EC666600A9A3F6 /* Gagenapally_BillAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2628C38D28EC666600A9A3F6 /* Build configuration list for PBXNativeTarget "Gagenapally_BillAppUITests" */;
+			buildPhases = (
+				2628C37928EC666600A9A3F6 /* Sources */,
+				2628C37A28EC666600A9A3F6 /* Frameworks */,
+				2628C37B28EC666600A9A3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2628C37F28EC666600A9A3F6 /* PBXTargetDependency */,
+			);
+			name = Gagenapally_BillAppUITests;
+			productName = Gagenapally_BillAppUITests;
+			productReference = 2628C37D28EC666600A9A3F6 /* Gagenapally_BillAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2628C35528EC666500A9A3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2628C35C28EC666500A9A3F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2628C37228EC666600A9A3F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2628C35C28EC666500A9A3F6;
+					};
+					2628C37C28EC666600A9A3F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2628C35C28EC666500A9A3F6;
+					};
+				};
+			};
+			buildConfigurationList = 2628C35828EC666500A9A3F6 /* Build configuration list for PBXProject "Gagenapally_BillApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2628C35428EC666500A9A3F6;
+			productRefGroup = 2628C35E28EC666500A9A3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2628C35C28EC666500A9A3F6 /* Gagenapally_BillApp */,
+				2628C37228EC666600A9A3F6 /* Gagenapally_BillAppTests */,
+				2628C37C28EC666600A9A3F6 /* Gagenapally_BillAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2628C35B28EC666500A9A3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2628C36D28EC666600A9A3F6 /* LaunchScreen.storyboard in Resources */,
+				2628C36A28EC666600A9A3F6 /* Assets.xcassets in Resources */,
+				2628C36828EC666500A9A3F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2628C37128EC666600A9A3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2628C37B28EC666600A9A3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2628C35928EC666500A9A3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2628C36528EC666500A9A3F6 /* ViewController.swift in Sources */,
+				2628C36128EC666500A9A3F6 /* AppDelegate.swift in Sources */,
+				2628C36328EC666500A9A3F6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2628C36F28EC666600A9A3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2628C37828EC666600A9A3F6 /* Gagenapally_BillAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2628C37928EC666600A9A3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2628C38228EC666600A9A3F6 /* Gagenapally_BillAppUITests.swift in Sources */,
+				2628C38428EC666600A9A3F6 /* Gagenapally_BillAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2628C37528EC666600A9A3F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2628C35C28EC666500A9A3F6 /* Gagenapally_BillApp */;
+			targetProxy = 2628C37428EC666600A9A3F6 /* PBXContainerItemProxy */;
+		};
+		2628C37F28EC666600A9A3F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2628C35C28EC666500A9A3F6 /* Gagenapally_BillApp */;
+			targetProxy = 2628C37E28EC666600A9A3F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2628C36628EC666500A9A3F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2628C36728EC666500A9A3F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2628C36B28EC666600A9A3F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2628C36C28EC666600A9A3F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2628C38528EC666600A9A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2628C38628EC666600A9A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2628C38828EC666600A9A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_BillApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_BillApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-BillApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2628C38928EC666600A9A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_BillApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_BillApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-BillApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2628C38B28EC666600A9A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-BillAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_BillApp.app/Gagenapally_BillApp";
+			};
+			name = Debug;
+		};
+		2628C38C28EC666600A9A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-BillAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_BillApp.app/Gagenapally_BillApp";
+			};
+			name = Release;
+		};
+		2628C38E28EC666600A9A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-BillAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_BillApp;
+			};
+			name = Debug;
+		};
+		2628C38F28EC666600A9A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-BillAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_BillApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2628C35828EC666500A9A3F6 /* Build configuration list for PBXProject "Gagenapally_BillApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2628C38528EC666600A9A3F6 /* Debug */,
+				2628C38628EC666600A9A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2628C38728EC666600A9A3F6 /* Build configuration list for PBXNativeTarget "Gagenapally_BillApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2628C38828EC666600A9A3F6 /* Debug */,
+				2628C38928EC666600A9A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2628C38A28EC666600A9A3F6 /* Build configuration list for PBXNativeTarget "Gagenapally_BillAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2628C38B28EC666600A9A3F6 /* Debug */,
+				2628C38C28EC666600A9A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2628C38D28EC666600A9A3F6 /* Build configuration list for PBXNativeTarget "Gagenapally_BillAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2628C38E28EC666600A9A3F6 /* Debug */,
+				2628C38F28EC666600A9A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2628C35528EC666500A9A3F6 /* Project object */;
+}

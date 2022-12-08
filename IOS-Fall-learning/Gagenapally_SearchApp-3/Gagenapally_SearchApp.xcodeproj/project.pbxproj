@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		269991E328EF0995003E76F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269991E228EF0995003E76F0 /* AppDelegate.swift */; };
+		269991E528EF0995003E76F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269991E428EF0995003E76F0 /* SceneDelegate.swift */; };
+		269991E728EF0995003E76F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269991E628EF0995003E76F0 /* ViewController.swift */; };
+		269991EA28EF0995003E76F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269991E828EF0995003E76F0 /* Main.storyboard */; };
+		269991EC28EF0996003E76F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269991EB28EF0996003E76F0 /* Assets.xcassets */; };
+		269991EF28EF0996003E76F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269991ED28EF0996003E76F0 /* LaunchScreen.storyboard */; };
+		269991FA28EF0996003E76F0 /* Gagenapally_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269991F928EF0996003E76F0 /* Gagenapally_SearchAppTests.swift */; };
+		2699920428EF0996003E76F0 /* Gagenapally_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699920328EF0996003E76F0 /* Gagenapally_SearchAppUITests.swift */; };
+		2699920628EF0996003E76F0 /* Gagenapally_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699920528EF0996003E76F0 /* Gagenapally_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		269991F628EF0996003E76F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269991D728EF0995003E76F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269991DE28EF0995003E76F0;
+			remoteInfo = Gagenapally_SearchApp;
+		};
+		2699920028EF0996003E76F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269991D728EF0995003E76F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269991DE28EF0995003E76F0;
+			remoteInfo = Gagenapally_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		269991DF28EF0995003E76F0 /* Gagenapally_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gagenapally_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269991E228EF0995003E76F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269991E428EF0995003E76F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		269991E628EF0995003E76F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		269991E928EF0995003E76F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269991EB28EF0996003E76F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269991EE28EF0996003E76F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269991F028EF0996003E76F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269991F528EF0996003E76F0 /* Gagenapally_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269991F928EF0996003E76F0 /* Gagenapally_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_SearchAppTests.swift; sourceTree = "<group>"; };
+		269991FF28EF0996003E76F0 /* Gagenapally_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2699920328EF0996003E76F0 /* Gagenapally_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_SearchAppUITests.swift; sourceTree = "<group>"; };
+		2699920528EF0996003E76F0 /* Gagenapally_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269991DC28EF0995003E76F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269991F228EF0996003E76F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269991FC28EF0996003E76F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269991D628EF0995003E76F0 = {
+			isa = PBXGroup;
+			children = (
+				269991E128EF0995003E76F0 /* Gagenapally_SearchApp */,
+				269991F828EF0996003E76F0 /* Gagenapally_SearchAppTests */,
+				2699920228EF0996003E76F0 /* Gagenapally_SearchAppUITests */,
+				269991E028EF0995003E76F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269991E028EF0995003E76F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269991DF28EF0995003E76F0 /* Gagenapally_SearchApp.app */,
+				269991F528EF0996003E76F0 /* Gagenapally_SearchAppTests.xctest */,
+				269991FF28EF0996003E76F0 /* Gagenapally_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269991E128EF0995003E76F0 /* Gagenapally_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				269991E228EF0995003E76F0 /* AppDelegate.swift */,
+				269991E428EF0995003E76F0 /* SceneDelegate.swift */,
+				269991E628EF0995003E76F0 /* ViewController.swift */,
+				269991E828EF0995003E76F0 /* Main.storyboard */,
+				269991EB28EF0996003E76F0 /* Assets.xcassets */,
+				269991ED28EF0996003E76F0 /* LaunchScreen.storyboard */,
+				269991F028EF0996003E76F0 /* Info.plist */,
+			);
+			path = Gagenapally_SearchApp;
+			sourceTree = "<group>";
+		};
+		269991F828EF0996003E76F0 /* Gagenapally_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				269991F928EF0996003E76F0 /* Gagenapally_SearchAppTests.swift */,
+			);
+			path = Gagenapally_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		2699920228EF0996003E76F0 /* Gagenapally_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2699920328EF0996003E76F0 /* Gagenapally_SearchAppUITests.swift */,
+				2699920528EF0996003E76F0 /* Gagenapally_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Gagenapally_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269991DE28EF0995003E76F0 /* Gagenapally_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699920928EF0996003E76F0 /* Build configuration list for PBXNativeTarget "Gagenapally_SearchApp" */;
+			buildPhases = (
+				269991DB28EF0995003E76F0 /* Sources */,
+				269991DC28EF0995003E76F0 /* Frameworks */,
+				269991DD28EF0995003E76F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gagenapally_SearchApp;
+			productName = Gagenapally_SearchApp;
+			productReference = 269991DF28EF0995003E76F0 /* Gagenapally_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		269991F428EF0996003E76F0 /* Gagenapally_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699920C28EF0996003E76F0 /* Build configuration list for PBXNativeTarget "Gagenapally_SearchAppTests" */;
+			buildPhases = (
+				269991F128EF0996003E76F0 /* Sources */,
+				269991F228EF0996003E76F0 /* Frameworks */,
+				269991F328EF0996003E76F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269991F728EF0996003E76F0 /* PBXTargetDependency */,
+			);
+			name = Gagenapally_SearchAppTests;
+			productName = Gagenapally_SearchAppTests;
+			productReference = 269991F528EF0996003E76F0 /* Gagenapally_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		269991FE28EF0996003E76F0 /* Gagenapally_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699920F28EF0996003E76F0 /* Build configuration list for PBXNativeTarget "Gagenapally_SearchAppUITests" */;
+			buildPhases = (
+				269991FB28EF0996003E76F0 /* Sources */,
+				269991FC28EF0996003E76F0 /* Frameworks */,
+				269991FD28EF0996003E76F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2699920128EF0996003E76F0 /* PBXTargetDependency */,
+			);
+			name = Gagenapally_SearchAppUITests;
+			productName = Gagenapally_SearchAppUITests;
+			productReference = 269991FF28EF0996003E76F0 /* Gagenapally_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269991D728EF0995003E76F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					269991DE28EF0995003E76F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					269991F428EF0996003E76F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 269991DE28EF0995003E76F0;
+					};
+					269991FE28EF0996003E76F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 269991DE28EF0995003E76F0;
+					};
+				};
+			};
+			buildConfigurationList = 269991DA28EF0995003E76F0 /* Build configuration list for PBXProject "Gagenapally_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269991D628EF0995003E76F0;
+			productRefGroup = 269991E028EF0995003E76F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269991DE28EF0995003E76F0 /* Gagenapally_SearchApp */,
+				269991F428EF0996003E76F0 /* Gagenapally_SearchAppTests */,
+				269991FE28EF0996003E76F0 /* Gagenapally_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269991DD28EF0995003E76F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269991EF28EF0996003E76F0 /* LaunchScreen.storyboard in Resources */,
+				269991EC28EF0996003E76F0 /* Assets.xcassets in Resources */,
+				269991EA28EF0995003E76F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269991F328EF0996003E76F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269991FD28EF0996003E76F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269991DB28EF0995003E76F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269991E728EF0995003E76F0 /* ViewController.swift in Sources */,
+				269991E328EF0995003E76F0 /* AppDelegate.swift in Sources */,
+				269991E528EF0995003E76F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269991F128EF0996003E76F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269991FA28EF0996003E76F0 /* Gagenapally_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269991FB28EF0996003E76F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699920628EF0996003E76F0 /* Gagenapally_SearchAppUITestsLaunchTests.swift in Sources */,
+				2699920428EF0996003E76F0 /* Gagenapally_SearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		269991F728EF0996003E76F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269991DE28EF0995003E76F0 /* Gagenapally_SearchApp */;
+			targetProxy = 269991F628EF0996003E76F0 /* PBXContainerItemProxy */;
+		};
+		2699920128EF0996003E76F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269991DE28EF0995003E76F0 /* Gagenapally_SearchApp */;
+			targetProxy = 2699920028EF0996003E76F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		269991E828EF0995003E76F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269991E928EF0995003E76F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269991ED28EF0996003E76F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269991EE28EF0996003E76F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2699920728EF0996003E76F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2699920828EF0996003E76F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2699920A28EF0996003E76F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2699920B28EF0996003E76F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2699920D28EF0996003E76F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_SearchApp.app/Gagenapally_SearchApp";
+			};
+			name = Debug;
+		};
+		2699920E28EF0996003E76F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_SearchApp.app/Gagenapally_SearchApp";
+			};
+			name = Release;
+		};
+		2699921028EF0996003E76F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_SearchApp;
+			};
+			name = Debug;
+		};
+		2699921128EF0996003E76F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269991DA28EF0995003E76F0 /* Build configuration list for PBXProject "Gagenapally_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699920728EF0996003E76F0 /* Debug */,
+				2699920828EF0996003E76F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2699920928EF0996003E76F0 /* Build configuration list for PBXNativeTarget "Gagenapally_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699920A28EF0996003E76F0 /* Debug */,
+				2699920B28EF0996003E76F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2699920C28EF0996003E76F0 /* Build configuration list for PBXNativeTarget "Gagenapally_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699920D28EF0996003E76F0 /* Debug */,
+				2699920E28EF0996003E76F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2699920F28EF0996003E76F0 /* Build configuration list for PBXNativeTarget "Gagenapally_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699921028EF0996003E76F0 /* Debug */,
+				2699921128EF0996003E76F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269991D728EF0995003E76F0 /* Project object */;
+}

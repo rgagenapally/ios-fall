@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2612BDCF2900426A0004D0BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612BDCE2900426A0004D0BA /* AppDelegate.swift */; };
+		2612BDD12900426A0004D0BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612BDD02900426A0004D0BA /* SceneDelegate.swift */; };
+		2612BDD32900426A0004D0BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612BDD22900426A0004D0BA /* ViewController.swift */; };
+		2612BDD62900426A0004D0BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2612BDD42900426A0004D0BA /* Main.storyboard */; };
+		2612BDD82900426B0004D0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2612BDD72900426B0004D0BA /* Assets.xcassets */; };
+		2612BDDB2900426B0004D0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2612BDD92900426B0004D0BA /* LaunchScreen.storyboard */; };
+		2612BDE62900426B0004D0BA /* Gagenapally_WordGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612BDE52900426B0004D0BA /* Gagenapally_WordGuessTests.swift */; };
+		2612BDF02900426B0004D0BA /* Gagenapally_WordGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612BDEF2900426B0004D0BA /* Gagenapally_WordGuessUITests.swift */; };
+		2612BDF22900426B0004D0BA /* Gagenapally_WordGuessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612BDF12900426B0004D0BA /* Gagenapally_WordGuessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2612BDE22900426B0004D0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2612BDC32900426A0004D0BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2612BDCA2900426A0004D0BA;
+			remoteInfo = Gagenapally_WordGuess;
+		};
+		2612BDEC2900426B0004D0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2612BDC32900426A0004D0BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2612BDCA2900426A0004D0BA;
+			remoteInfo = Gagenapally_WordGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2612BDCB2900426A0004D0BA /* Gagenapally_WordGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gagenapally_WordGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2612BDCE2900426A0004D0BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2612BDD02900426A0004D0BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2612BDD22900426A0004D0BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2612BDD52900426A0004D0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2612BDD72900426B0004D0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2612BDDA2900426B0004D0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2612BDDC2900426B0004D0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2612BDE12900426B0004D0BA /* Gagenapally_WordGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_WordGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2612BDE52900426B0004D0BA /* Gagenapally_WordGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_WordGuessTests.swift; sourceTree = "<group>"; };
+		2612BDEB2900426B0004D0BA /* Gagenapally_WordGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gagenapally_WordGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2612BDEF2900426B0004D0BA /* Gagenapally_WordGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_WordGuessUITests.swift; sourceTree = "<group>"; };
+		2612BDF12900426B0004D0BA /* Gagenapally_WordGuessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gagenapally_WordGuessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2612BDC82900426A0004D0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612BDDE2900426B0004D0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612BDE82900426B0004D0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2612BDC22900426A0004D0BA = {
+			isa = PBXGroup;
+			children = (
+				2612BDCD2900426A0004D0BA /* Gagenapally_WordGuess */,
+				2612BDE42900426B0004D0BA /* Gagenapally_WordGuessTests */,
+				2612BDEE2900426B0004D0BA /* Gagenapally_WordGuessUITests */,
+				2612BDCC2900426A0004D0BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2612BDCC2900426A0004D0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2612BDCB2900426A0004D0BA /* Gagenapally_WordGuess.app */,
+				2612BDE12900426B0004D0BA /* Gagenapally_WordGuessTests.xctest */,
+				2612BDEB2900426B0004D0BA /* Gagenapally_WordGuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2612BDCD2900426A0004D0BA /* Gagenapally_WordGuess */ = {
+			isa = PBXGroup;
+			children = (
+				2612BDCE2900426A0004D0BA /* AppDelegate.swift */,
+				2612BDD02900426A0004D0BA /* SceneDelegate.swift */,
+				2612BDD22900426A0004D0BA /* ViewController.swift */,
+				2612BDD42900426A0004D0BA /* Main.storyboard */,
+				2612BDD72900426B0004D0BA /* Assets.xcassets */,
+				2612BDD92900426B0004D0BA /* LaunchScreen.storyboard */,
+				2612BDDC2900426B0004D0BA /* Info.plist */,
+			);
+			path = Gagenapally_WordGuess;
+			sourceTree = "<group>";
+		};
+		2612BDE42900426B0004D0BA /* Gagenapally_WordGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				2612BDE52900426B0004D0BA /* Gagenapally_WordGuessTests.swift */,
+			);
+			path = Gagenapally_WordGuessTests;
+			sourceTree = "<group>";
+		};
+		2612BDEE2900426B0004D0BA /* Gagenapally_WordGuessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2612BDEF2900426B0004D0BA /* Gagenapally_WordGuessUITests.swift */,
+				2612BDF12900426B0004D0BA /* Gagenapally_WordGuessUITestsLaunchTests.swift */,
+			);
+			path = Gagenapally_WordGuessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2612BDCA2900426A0004D0BA /* Gagenapally_WordGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2612BDF52900426B0004D0BA /* Build configuration list for PBXNativeTarget "Gagenapally_WordGuess" */;
+			buildPhases = (
+				2612BDC72900426A0004D0BA /* Sources */,
+				2612BDC82900426A0004D0BA /* Frameworks */,
+				2612BDC92900426A0004D0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gagenapally_WordGuess;
+			productName = Gagenapally_WordGuess;
+			productReference = 2612BDCB2900426A0004D0BA /* Gagenapally_WordGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2612BDE02900426B0004D0BA /* Gagenapally_WordGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2612BDF82900426B0004D0BA /* Build configuration list for PBXNativeTarget "Gagenapally_WordGuessTests" */;
+			buildPhases = (
+				2612BDDD2900426B0004D0BA /* Sources */,
+				2612BDDE2900426B0004D0BA /* Frameworks */,
+				2612BDDF2900426B0004D0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2612BDE32900426B0004D0BA /* PBXTargetDependency */,
+			);
+			name = Gagenapally_WordGuessTests;
+			productName = Gagenapally_WordGuessTests;
+			productReference = 2612BDE12900426B0004D0BA /* Gagenapally_WordGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2612BDEA2900426B0004D0BA /* Gagenapally_WordGuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2612BDFB2900426B0004D0BA /* Build configuration list for PBXNativeTarget "Gagenapally_WordGuessUITests" */;
+			buildPhases = (
+				2612BDE72900426B0004D0BA /* Sources */,
+				2612BDE82900426B0004D0BA /* Frameworks */,
+				2612BDE92900426B0004D0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2612BDED2900426B0004D0BA /* PBXTargetDependency */,
+			);
+			name = Gagenapally_WordGuessUITests;
+			productName = Gagenapally_WordGuessUITests;
+			productReference = 2612BDEB2900426B0004D0BA /* Gagenapally_WordGuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2612BDC32900426A0004D0BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2612BDCA2900426A0004D0BA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2612BDE02900426B0004D0BA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2612BDCA2900426A0004D0BA;
+					};
+					2612BDEA2900426B0004D0BA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2612BDCA2900426A0004D0BA;
+					};
+				};
+			};
+			buildConfigurationList = 2612BDC62900426A0004D0BA /* Build configuration list for PBXProject "Gagenapally_WordGuess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2612BDC22900426A0004D0BA;
+			productRefGroup = 2612BDCC2900426A0004D0BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2612BDCA2900426A0004D0BA /* Gagenapally_WordGuess */,
+				2612BDE02900426B0004D0BA /* Gagenapally_WordGuessTests */,
+				2612BDEA2900426B0004D0BA /* Gagenapally_WordGuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2612BDC92900426A0004D0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612BDDB2900426B0004D0BA /* LaunchScreen.storyboard in Resources */,
+				2612BDD82900426B0004D0BA /* Assets.xcassets in Resources */,
+				2612BDD62900426A0004D0BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612BDDF2900426B0004D0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612BDE92900426B0004D0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2612BDC72900426A0004D0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612BDD32900426A0004D0BA /* ViewController.swift in Sources */,
+				2612BDCF2900426A0004D0BA /* AppDelegate.swift in Sources */,
+				2612BDD12900426A0004D0BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612BDDD2900426B0004D0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612BDE62900426B0004D0BA /* Gagenapally_WordGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612BDE72900426B0004D0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612BDF22900426B0004D0BA /* Gagenapally_WordGuessUITestsLaunchTests.swift in Sources */,
+				2612BDF02900426B0004D0BA /* Gagenapally_WordGuessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2612BDE32900426B0004D0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2612BDCA2900426A0004D0BA /* Gagenapally_WordGuess */;
+			targetProxy = 2612BDE22900426B0004D0BA /* PBXContainerItemProxy */;
+		};
+		2612BDED2900426B0004D0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2612BDCA2900426A0004D0BA /* Gagenapally_WordGuess */;
+			targetProxy = 2612BDEC2900426B0004D0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2612BDD42900426A0004D0BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2612BDD52900426A0004D0BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2612BDD92900426B0004D0BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2612BDDA2900426B0004D0BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2612BDF32900426B0004D0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2612BDF42900426B0004D0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2612BDF62900426B0004D0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2612BDF72900426B0004D0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gagenapally_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Gagenapally_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2612BDF92900426B0004D0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_WordGuess.app/Gagenapally_WordGuess";
+			};
+			name = Debug;
+		};
+		2612BDFA2900426B0004D0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gagenapally_WordGuess.app/Gagenapally_WordGuess";
+			};
+			name = Release;
+		};
+		2612BDFC2900426B0004D0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_WordGuess;
+			};
+			name = Debug;
+		};
+		2612BDFD2900426B0004D0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Gagenapally-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gagenapally_WordGuess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2612BDC62900426A0004D0BA /* Build configuration list for PBXProject "Gagenapally_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612BDF32900426B0004D0BA /* Debug */,
+				2612BDF42900426B0004D0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2612BDF52900426B0004D0BA /* Build configuration list for PBXNativeTarget "Gagenapally_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612BDF62900426B0004D0BA /* Debug */,
+				2612BDF72900426B0004D0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2612BDF82900426B0004D0BA /* Build configuration list for PBXNativeTarget "Gagenapally_WordGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612BDF92900426B0004D0BA /* Debug */,
+				2612BDFA2900426B0004D0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2612BDFB2900426B0004D0BA /* Build configuration list for PBXNativeTarget "Gagenapally_WordGuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612BDFC2900426B0004D0BA /* Debug */,
+				2612BDFD2900426B0004D0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2612BDC32900426A0004D0BA /* Project object */;
+}
